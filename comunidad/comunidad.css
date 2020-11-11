@@ -1,0 +1,87 @@
+*{
+    margin:0;
+    padding:0;
+ 
+}
+.comenta{
+    position: relative;
+    background: white;
+}
+.comentario{
+    background-image: url('../img/BackPrin3.jpg');
+
+    width: 100%;
+    height: 650px;
+    background-size: 100%;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.comenta h2{
+    font-size: 2.5vw;
+    font-family: "UEFA Nations Titling";
+    text-align: center;
+    
+    margin-left: 25%;
+    margin-right: 25%;
+    color: black;
+}
+.comentario .borde{
+    background: white;
+    margin-top: 1%;
+    margin-right: 30%;
+    margin-left: 30%;
+
+}
+.comentario table{
+    font-family: "Product Sans Regular";
+    margin-top: 5%;
+}
+.comentario .div{
+
+    margin-right: 10%;
+    margin-left: 10%;
+    text-align: center;
+}
+.comentario table, .div{
+    margin-left: 15%;
+}
+.boton{
+   border-radius: 12px 12px 12px 12px;
+    margin-top: 5%;
+    padding:2% 10%;
+    background: red;
+    color: white;
+    transition: 0.4s;
+    border: solid 1px red;
+    margin-bottom: 1%;
+}
+.boton:hover{
+    background-color: white;
+    color: black;
+     border: solid 1px black;
+    cursor: pointer;
+    transform: scale(1.03);
+}
+input[type=text]{
+    margin: 5%;
+    padding: 2%;
+    background-color: transparent;
+    border: 1px solid black;
+    color:black;
+}
+input[type=number]{
+    margin: 5%;
+    padding: 2%;
+    background-color: transparent;
+    border: 1px solid black;
+    color:black;
+}
+textarea{
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
